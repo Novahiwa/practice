@@ -22,7 +22,6 @@ const ContactForm = () => {
   const handleFormSubmit = (event) => {
     event.preventDefault();
     setIsSubmitting(true);
-    alert(name);
 
     //TODO:send data to server
     setIsSubmitting(false);
