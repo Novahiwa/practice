@@ -29,6 +29,7 @@ const ContactForm = () => {
   return (
     <div className="flex fex-col justify-center">
       <form className="flex flex-col mx-10 my-4 w-full md:w-100">
+        <h1 className="text-2xl font-bold capitalize">contact us</h1>
         <input
           type="text"
           value={name}
