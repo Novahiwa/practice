@@ -28,7 +28,7 @@ const Land = () => {
       </div>
 
       <div className="relative z-10 flex justify-center">
-        <img src={server} width={400} alt="server image on the landing page" />
+        <img src={server} width={300} alt="server image on the landing page" />
       </div>
     </div>
   );
